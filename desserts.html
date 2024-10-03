@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Desserts </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .image-container,.thumbnail-container{
+      display: felx;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .thumbnail-image {
+      max-width: 100;
+      height: auto;
+      width: 400px;
+      border-radius: 10px;
+    }
+    .dessert-image{
+      max-width: 100px;
+      height: auto;
+      border-radius: 15px;
+    }
+    table{
+      margin: 20px;
+    }
+    </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="desserts.html"> DESSERTS </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+  <span class="navbar-toggler-icon" ></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="basic.html"> BASIC </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="advanced.html"> ADVANCED </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    <header class="text-center">
+  <h2>After dinner hosted by venkata kishore korrapati</h2>
+  </header>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-2 "> K </div>
+      <div class="col-sm-2 "> O </div>
+        <div class="col-sm-2 "> R </div>
+          <div class="col-sm-2 "> R </div>
+          <div class="col-sm-2 "> A </div>
+          <div class="col-sm-2 "> P </div>
+    </div>
+    <div class="row">
+    <div class="col-md"> KHEER </div>
+    <div class="col-md"> OREO CHEESE CAKE </div>
+    <div class="col-md"> RED VELVET CAKE </div>
+    <div class="col-md"> RICE PUDDING </div>
+    <div class="col-md"> APPLE CRISP </div>
+    <div class="col-md"> PAVLOVA </div>
+    </div>
+  </div>
+     <p class="text-left">which row breaks first?</p>
+     <p class="text-center"> the desserts row breaks first</p>
+     <p>EXPLANATION:</p>
+     <p class="text-center">..becuase oreo velvet cake is longer in length.so when the browser size is adjusted or resized<br>
+    and becomes narrower oreo velvet cake takes more space.thats why this desserts row breaks first..!!</p> 
+    <div class="container">
+      <div class="row">
+          <div class="col-md">
+              <img src="kheer.jpg" alt="Kheer" class="img-fluid" style = "width: 400px; height: 400px;">
+          </div>
+          <div class="col-md">
+              <img src="rice pudding.jpg" alt="rice pudding" class="img-fluid " style = "width: 400px; height: 400px;">
+          </div>
+          <div class="col-md">
+              <img src="rvc.jpg" alt="red velvet" class="img-fluid" style = "width: 400px; height: 400px;">
+          </div>
+      </div>
+  </div>
+      <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <img src="kheer.jpg" alt="kheer Thumbnail" class="img-thumbnail" style = "width: 100px; height: 100px;">
+            </div>
+            <div class="col-md">
+                <img src="rice pudding.jpg" alt="rice pudding Thumbnail" class="img-thumbnail" style = "width: 100px; height: 100px;">
+            </div>
+            <div class="col-md">
+                <img src="rvc.jpg" alt="red velvet cake Thumbnail" class="img-thumbnail" style = "width: 100px; height: 100px;">
+            </div>
+        </div>
+    </div>
+
+      <br>
+      <table class="table table-striped table-hover table-bordered">
+        <caption>
+          <strong>DESSERT & CITIES</strong>
+        </caption>
+        <thead class="table-success">
+          <td scope="col"> Letter </td>
+          <td scope="col"> Dessert </td>
+          <td scope="col"> City </td>
+          <td scope="col"> Insect </td>
+        </thead>
+        <tbody>
+          <tr class="table-dark"><td> k </td> <td> kheer </td> <td> kukatpally </td> <td> Katydid </td></tr>
+          <tr class="table-danger"><td> o </td> <td> oreo cheese cake </td> <td> ongole </td><td> Odonata </td></tr>
+          <tr class="table-primary"><td> r </td> <td> red velvet cake  </td><td> rajamundry </td><td> Rice Weevil </td></tr>
+          <tr class="table-hover"><td> r </td> <td> rice pudding </td><td> rajastan </td><td> Red Cotton Bug </td></tr>
+          <tr class="table-warning"><td> a </td> <td> apple crisp </td><td> amaravathi </td><td> ant </td></tr>
+          <tr><td> p </td> <td> pavlova </td> <td> panjagutta </td> <td> Paper Wasp </td></tr>
+        </tbody>
+      </table>
+  
+     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with group button">
+      <div class="btn-group" role="group" aria-label="button with success">
+        <button type="button" class="btn btn-success"> K </button>
+        <button type="button" class="btn btn-success"> O </button>
+        <button type="button" class="btn btn-success"> R </button>
+        </div>
+        <div class="btn-group" role="group" aria-label="group with alert">
+        <button type="button" class="btn btn-primary"> R </button>
+        <button type="button" class="btn btn-primary"> A </button>
+        </div>
+        <div class="btn-group" role="group" aria-label="group with danger">
+        <button type="button" class="btn btn-danger"> P </button>
+        </div>
+        <br>
+       <div class="btn-group" role="group">
+        <button type="button"  class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> choose page </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="basic.html" > BASIC </a></li>
+            <li><a class="dropdown-item" href="advanced.html" > ADVANCED </a></li>
+            </ul>
+        </div> 
+        </div><br>
+        <form style="margin: 20px;">
+     <div class="form-group">            
+      <label for="E-mail" class="form-label"> ENTER EMAIL ADDRESS : </label>
+            <input type="text" class="form-control" id="E-mail" aria-describedby="Email help" placeholder="enter email">
+            <div id="emailHelp" class="form-text">ENTERED EMAIL WILL NOT BE REVEALED TO ANYONE </div>
+  </div>
+  <div class="form-group">
+            <label for="ENTER DESSERT" class="form-label"> ENTER DESSERT : </label>
+            <input type="text" class="form-control" id="dessert" placeholder="enter dessert">
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="Check">
+    <label class="form-check-label" for="Check"> Sign up for newsletter?  </label>
+  </div>
+  <button type="submit" class="btn btn-primary">SUBMIT</button>
+        </form>
+        <div class="container mt-4">
+          <div class="row">
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <img src="kheer.jpg" class="card-img-top" alt="kheer">
+                      <div class="card-body">
+                          <h5 class="card-title"> kheer </h5>
+                          <p class="card-text">Kheer is a traditional Indian dessert that is loved for its creamy texture and rich flavor.</p>
+                          <a href="https://en.wikipedia.org/wiki/Kheer" class="btn btn-primary"> KHEER </a>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <img src="rice pudding.jpg" class="card-img-top" alt="rice">
+                      <div class="card-body">
+                          <h5 class="card-title">Rice pudding</h5>
+                          <p class="card-text">Rice pudding is a classic dessert that is enjoyed in various cultures around the world, known for its creamy texture and comforting flavors. </p>
+                          <a href="https://en.wikipedia.org/wiki/Rice_pudding" class="btn btn-primary">RICE PUDDING</a>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="col-md-4 mb-4">
+                  <div class="card">
+                      <img src="rvc.jpg" class="card-img-top" alt="red velvet">
+                      <div class="card-body">
+                          <h5 class="card-title">RED VELVET</h5>
+                          <p class="card-text">Red velvet cake is a luxurious and visually striking dessert known for its distinctive red color and velvety texture.</p>
+                          <a href="https://en.wikipedia.org/wiki/Red_velvet_cake" class="btn btn-primary">RED VELVET CAKE</a>
+                      </div>
+                  </div>
+              </div>
+      </body>
+</html>
